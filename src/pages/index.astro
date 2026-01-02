@@ -23,29 +23,22 @@ if (hasPinnedPosts) {
 }
 ---
 
-<Layout title="Readme" description={SITE.description}>
+<Layout title="Home" description={SITE.description}>
   <div class="relative z-[1]">
     <div class="fade-up">
       <div class="py-8 pb-10 px-6 sm:px-8">
         <h1 class="flex flex-col gap-2">
-          <span class="text-4xl sm:text-5xl tracking-tight"> Litos </span>
+          <div class="flex items-center gap-2">
+            <span class="text-4xl sm:text-5xl tracking-tight"> Hello </span> 
+            <img  src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="50px">
+          </div>
           <span class="text-muted-foreground font-light text-xl sm:text-2xl block tracking-wide text-balance">
-            A Simple & Modern Blog Theme for Astro
+            I'm Heman Sakkthivel 
           </span>
         </h1>
         <div class="pro text-muted-foreground text-pretty">
           <p>
-            Litos is a simple and modern Astro blog theme, focusing on content display and reading experience. What's more, it's not just a
-            blog, but also a place to showcase your personal skills, projects, and daily life.
-          </p>
-          <p>
-            Tailwind CSS is used to achieve an elegant responsive design, and React components are integrated to provide a smooth
-            interactive experience. It supports light and dark theme switching, is responsive, has a clean style, and offers a variety of
-            configurable article display layouts.
-          </p>
-          <p>
-            This theme is inspired by <a href="https://github.com/needim" target="_blank" rel="nofollow noreferrer"> @needim</a> and redesigned
-            by <a href="https://github.com/Dnzzk2" target="_blank" rel="nofollow noreferrer"> @Dnzzk2</a> based on Astro.
+            Aspiring Software Engineer, I like building backends and working on blockchain systems, with a focus on writing internal libraries, by removing unncessary layers of abstraction. But at the end of the day, I build what gets the job done - whether that's backend or CLI's.
           </p>
         </div>
         <div class="mt-6 flex gap-6">
@@ -58,7 +51,7 @@ if (hasPinnedPosts) {
           }
         </div>
       </div>
-      {
+      {/*
         ENABLED && (
           <>
             <SectionDivider />
@@ -71,8 +64,8 @@ if (hasPinnedPosts) {
             </div>
           </>
         )
-      }
-      {
+      */}
+      {/*
         SKILLS_ENABLED && SKILLS_DATA.length > 0 && (
           <>
             <SectionDivider />
@@ -85,7 +78,7 @@ if (hasPinnedPosts) {
             </div>
           </>
         )
-      }
+      */}
       <SectionDivider />
       <div class="py-8 pb-10 px-6 sm:px-8">
         <h2 class="text-2xl sm:text-3xl tracking-tight">Posts</h2>
